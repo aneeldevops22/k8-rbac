@@ -48,7 +48,7 @@ metadata:
   name: aws-auth
   namespace: kube-system
   uid: dab0f6cd-e6bf-4f4d-97cd-85fa953a6a71
-#---
+---
 # apiVersion: rbac.authorization.k8s.io/v1
 # kind: ClusterRole
 # metadata:
