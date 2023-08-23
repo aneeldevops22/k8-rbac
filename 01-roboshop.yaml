@@ -42,7 +42,6 @@ data:
       - roboshop-admin
       userarn: arn:aws:iam::183791841075:user/aneeldevops
       username: aneeldevops
-
 kind: ConfigMap
 metadata:
   creationTimestamp: "2023-07-27T12:57:45Z"
