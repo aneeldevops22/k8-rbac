@@ -13,7 +13,6 @@ rules:
 - apiGroups: ["*"]
   resources: ["*"]
   verbs: ["*"]
-  
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -29,7 +28,7 @@ roleRef:
   kind: Role #this must be Role or ClusterRole
   name: roboshop-admin # this must match the name of the Role or ClusterRole you wish to bind to
   apiGroup: rbac.authorization.k8s.io
-  ---
+---
 apiVersion: v1
 data:
   mapRoles: |
